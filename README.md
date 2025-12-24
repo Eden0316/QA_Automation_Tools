@@ -84,7 +84,7 @@ QA 실행과 도구 접근을 하나로 묶은 중앙 허브
 2. **Python 3.11.9 설치**[[링크](https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe)]: 기존 파이썬 교체 하지 않고 개별 폴더에 설치 후, 다음 스텝에서 설정 가능
 3. **Airtest 설치(옵션)** [[링크](https://airtest.netease.com/)]: 앱의 poco 객체 확인이 필요한 경우 설치 진행(필수 아님)
 4. **QA_MAIL_PASS(구글 앱 비밀번호) 설정** : [[도움말 링크](https://support.google.com/accounts/answer/185833?hl=ko)]
-5. **00_install/qa_env_var.txt - 자동 입력될 환경 변수 세팅**(qa_env_var_Template.txt 참고)
+5. **00_install/qa_env_var.txt - 자동 입력될 환경 변수 사전 세팅(옵션)**(qa_env_var_Template.txt 참고)
 : 경로 수정 시 변수명 변경X 경로만 수정할 것 (QA_SCRIPT: QA툴 루트 폴더, QA_TOOLKIT: common.py 폴더)
 : _파일 미 존재 시 변수명 설정할 수 있는 UI창 출력되도록 기능 추가._
 6. **00_install/QA Tools 환경 설정기.exe 실행하여 QA 환경 설정 세팅**(자동 진행 됨)

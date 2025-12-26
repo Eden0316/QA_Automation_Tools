@@ -1,4 +1,4 @@
-# **🛠️ QA Automation Tools**
+# **🛠️ QA Automation Toolkit**
 
 👤 Author: Eden Kim
 

@@ -14,6 +14,7 @@
 
 2. **Python 3.11.9 설치**  
    - 다운로드: https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe  
+   - 설치 시 파이썬 환경 변수 등록(Add Python to environment variables) 옵션 체크(필수)
    - 기존 Python을 교체하지 않고 **개별 폴더에 설치**한 뒤, 이후 설정 단계에서 경로 지정 가능
 
 3. **Airtest 설치 (선택)**  
@@ -34,9 +35,10 @@
 6. **환경 설정기 실행 (필수)**  
    - `00_install/QA Tools 환경 설정기.exe` 실행  
    - 자동 수행 항목(구성에 따라 일부 생략될 수 있음):
-     - 필수 Python 패키지 설치
+     - 필수 Python 패키지 설치 확인
      - ADB / scrcpy 점검(탐색)
      - 환경 변수 설정(또는 설정 마법사 실행)
+  - 오류 발생 시: 환경 변수 → 사용자 변수 → Path의 상단에 Python 3.11.x 경로 등록(필수) 확인 후 재 실행
 
 7. **계정 풀 설정 (필수, 사용하는 경우)**  
    - `qa_common/_accounts/{PACKAGE}_accounts.json` 하위의 계정 JSON 파일에 테스트 계정 입력

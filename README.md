@@ -22,6 +22,7 @@
    - Poco 객체 확인(AirtestIDE 활용)이 필요한 경우에만 설치 (자동화 실행 자체에는 필수 아님)
 
 4. **`QA_MAIL_PASS`(Google 앱 비밀번호) 설정 (선택)**  
+   - 테스트 결과 메일 송신을 위한 앱 비밀번호 설정으로 필수 아님 (단, 미설정 시 결과 메일 송신 불가)
    - 참고: https://support.google.com/accounts/answer/185833?hl=ko
 
 5. **사전 환경변수 세팅 (선택)**  

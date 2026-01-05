@@ -4,7 +4,7 @@
 
 📅 Date: 2025-12-24 - QA 자동화 도구 최초 배포
 
-- QA 환경 설정기(00_install), QA Tools (Root), 자동화 스크립트(99_scripts, qa_common) 포함 통합 파일(scrcpy 포함)
+> QA 환경 설정기(00_install), QA Tools (Root), 자동화 스크립트(99_scripts, qa_common) 포함 통합 파일(scrcpy 포함)
 
 ---
 ## 🧰 설치 및 실행 가이드
